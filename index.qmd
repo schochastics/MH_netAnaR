@@ -61,7 +61,15 @@ packageVersion("networkdata")
 
 # Social Science Usecase(s)
 
-Network analysis provides social scientists with a versatile framework for examining relationships and structures within complex social systems. For example, in studying the dynamics of an online support community, a social scientist could use network analysis to explore how individuals connect, share resources, and offer support. By analyzing metrics such as degree centrality (identifying key individuals who connect others), clustering coefficients (revealing tightly-knit groups), and betweenness centrality (spotlighting users who bridge subgroups), researchers can understand how information and support flow within the community. This approach can uncover subgroups that form around shared needs, as well as highlight key figures who facilitate support or knowledge sharing. Network analysis also enables researchers to track changes in the community over time, such as the emergence of new leaders or the diffusion of helpful resources, offering a better understanding of social cohesion, influence, and resilience within the community.
+Network analysis provides researchers with a versatile framework for examining relationships and structures within complex social systems. 
+For example, in studying the dynamics of an online support community, one could use network analysis to explore how individuals connect, 
+share resources, and offer support. By analyzing metrics such as degree centrality (identifying key individuals who connect others), 
+clustering coefficients (revealing tightly-knit groups), and betweenness centrality (spotlighting users who bridge subgroups), researchers 
+can understand how information and support flow within the community. This approach can uncover subgroups that form around 
+shared needs, as well as highlight key figures who facilitate support or knowledge sharing. 
+Network analysis also enables researchers to track changes in the community over time, such as the emergence of new
+leaders or the diffusion of helpful resources, offering a better understanding of social cohesion, influence, and resilience 
+within the community.
 
 # Introduction
 
