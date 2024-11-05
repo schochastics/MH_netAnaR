@@ -1,0 +1,5 @@
+project:
+  title: &quot;Basic Network Analysis in R&quot;
+  type: default
+  render:
+    - index.qmd

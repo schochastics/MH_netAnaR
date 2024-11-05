@@ -1,0 +1,7 @@
+apt-get install -y make
+apt-get install -y libglpk-dev
+apt-get install -y libxml2-dev
+apt-get install -y pandoc
+apt-get install -y libicu-dev
+apt-get install -y libfontconfig1-dev
+apt-get install -y libfreetype6-dev
