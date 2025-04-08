@@ -299,10 +299,6 @@ ggraph(rhesus, "stress") +
 ## Use case: triad census
 
 
-<details>
-
-<summary>Expand</summary>
-
 In this short use case example, we will discuss the **triad census** of a directed network.
 In a directed network, there are 16 possible configurations of edges that can occur between three nodes.
 
@@ -411,8 +407,6 @@ For the second dimension, we get a clearer association. It seems that the fracti
 is a good indicator for structural differences among leagues.
 
 More details can be found in the paper by Kathrine Faust.
-
-</details>
 
 ---
 
@@ -595,11 +589,6 @@ does match the hypothesis (or not).
 
 ## Use case: Florentine Families
 
-<details>
-
-<summary>Expand</summary>
-
-
 A classic example application of centrality indices is the "Florentine Families" dataset, which is included in the `networkdata` package.
 ```{r flo_data}
 data("flo_marriage")
@@ -631,8 +620,6 @@ data.frame(
 ```
 
 No matter what structural feature we consider to be important, the Medici always have the most advantageous position.
-
-</details>
 
 ## Additional Material
 
@@ -892,11 +879,7 @@ can also be used to find community structures. Several packages exist for this, 
 
 # I want to learn about ...
 
-## ... two mode networks
-
-<details>
-
-<summary>Expand</summary>
+##  two mode networks
 
 A two mode network is a network that consists of two disjoint sets of nodes (like people and events). 
 Ties connect the two sets, e. g. participation of people in events. There exists a great variety
@@ -969,13 +952,7 @@ differs enough from the expected value. If so, the edge is kept in the binary "b
 All possible backbone extraction methods are implemented in the `backbone` package ([link](https://CRAN.R-project.org/package=backbone)). An introduction to the package can be
 found on [arxiv](https://arxiv.org/abs/1912.12779).
 
-</details>
-
-## ... signed networks
-
-<details>
-
-<summary>Expand</summary>
+##  signed networks
 
 Traditional SNA usually deals with relations among entities (e.g. people) that are positive, including “friendship”, “advice seeking”, etc. Most network analytic tools are devised under this premise, be that centrality indices, clustering tools and so forth. But of course not all occurring relations are positive. People can be friends but also foes.
 
@@ -1024,39 +1001,22 @@ The “tribes” dataset is a signed social network of tribes of the Gahuku–Ga
 
 The “cowList” dataset contains a list of 52 signed networks of inter-state relations over time (1946-1999). Two countries are connected by a positive tie if they form an alliance or have a peace treaty. A negative tie exists between countries who are at war or in other kinds of conflicts. The dataset is derrived from the [correlates of war](https://correlatesofwar.org/).
 
-</details>
-
-## ... ego networks
-
-<details>
-
-<summary>Expand</summary>
+##  ego networks
 
 If you want to analyze ego networks, then I can only recommend this
 [book](http://www.raffaelevacca.com/egocentric-r-book/) by [Raffaele Vacca](http://www.raffaelevacca.com/).
 Raffaele has given countless workshops on ego network analysis in R and his material should provide
 you with everything you need.
 
-</details>
 
-## ... multilevel networks
+##  multilevel networks
 
-<details>
-
-<summary>Expand</summary>
 
 For analyzing multilevel networks, I recommend the `multinet` pakage ([link](https://CRAN.R-project.org/package=multinet)).
 Check out this [JSS Paper](http://multilayer.it.uu.se/jss.pdf) for a brief introduction into the package.
 
 If you just want to visualize a multilevel network, then head over to my [network visualization](../netvizr/#multilevel-networks) tutorial.
 
-</details>
-
-## ... multigraphs
-
-<details>
-
-<summary>Expand</summary>
 
 Multigraphs are network representations in which multiple edges and edge loops (self edges) are permitted.
 In R, there are at least two relevant packages. The first is `multigraph` ([link](https://CRAN.R-project.org/package=multigraph)) which implements some visualization methods for 
@@ -1077,17 +1037,9 @@ For the technical details behind `multigraphr`, you can refer to:
 
 >Shafie, T. (Under review). Goodness of fit tests for random multigraph models.
 
-</details>
-
-## ... something else
-
-<details>
-
-<summary>Expand</summary>
+##  something else
 
 Cant find what you are looking for? Ping me on [twitter](https://twitter.com/schochastics) and I see what I can do.
-
-</details>
 
 ---
 
@@ -1148,9 +1100,6 @@ packages related to network dynamics, such as `ergm` or `Rsiena`. These are just
 For `ergm`, you can refer to this [statnet tutorial](http://statnet.org/Workshops/ergm_tutorial.html) and for 
 `Rsiena` you can check out the [Rsiena webpage](https://www.stats.ox.ac.uk/~snijders/siena/siena_scripts.htm).
 
----
-
-# Further Reading
 
 
 
