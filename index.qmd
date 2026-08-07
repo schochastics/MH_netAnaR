@@ -199,9 +199,9 @@ greys
 The **density** of a network is defined as the fraction of the potential edges in a network that are actually present.
 ```{r density}
 c(
-    graph.density(graph.empty(10)),
-    graph.density(greys),
-    graph.density(graph.full(10))
+    edge_density(make_empty_graph(10)),
+    edge_density(greys),
+    edge_density(make_full_graph(10))
 )
 ```
 
@@ -916,7 +916,7 @@ The adjacency matrix of a two mode network is also referred to as an incidence m
 `as_incidence_matrix()`
 
 ```{r incidence_southern}
-A <- as_incidence_matrix(southern_women)
+A <- as_biadjacency_matrix(southern_women)
 A
 ```
 
